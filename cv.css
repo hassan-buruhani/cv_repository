@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: xx-small;
+    margin: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+th, tr {
+    padding: 7px;
+    width: 80px;
+}
+
+td {
+        
+}
+
+hr {
+    border: 0; 
+    margin-top: 0;
+    height: 3.4px; 
+    background: linear-gradient(to right, yellowgreen, white);
+}
+
+.container {
+    max-width: 540px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 2px 3px 2px grey;
+}
+
+#tweet {
+    float: left;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: -0.3px;
+    margin-right: 0;
+    border: none;
+}
+#insta {
+    float: left;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: -0.3px;
+    margin-right: 0;
+    border: none;
+}
+#mail {
+    float: left;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: -0.3px;
+    margin-right: 0;
+    border: none;
+}
+
+#linkedin {
+    float: left;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -5px;
+    margin-right: 0;
+    border: none;
+}
+.section {
+    margin-top: 5px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+.content li {
+    margin-bottom: 5px;
+    font-weight: 450;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-item::before {
+    content: "   ";
+    color: #007bff; 
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+img {
+    float: right;
+    position: relative;
+    top: -120px;
+    width: 90px;
+    margin-right: 30px;
+    height: 95px;
+    border: 2px solid rgb(208, 230, 166);
+
+}
